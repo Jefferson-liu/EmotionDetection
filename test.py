@@ -31,6 +31,7 @@ while True:
 
         prediction = model.predict(cropped_img)
         emotion_index = int(np.argmax(prediction))
+        cv2.rectangle(frame, (x, y-50), (x+w, y+10), (0, 255, 0), -1)
         cv2.putText(frame, emotion_dict[emotion_index], (x+5, y-20), cv2.FONT_HERSHEY_SIMPLEX, 1 , (255,0,0), 2, cv2.LINE_AA)
         
     cv2.imshow('Emotion Detection', frame)
