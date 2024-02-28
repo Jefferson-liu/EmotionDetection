@@ -6,6 +6,8 @@ The dataset is a modified version of the FER2013 dataset from Kaggle without som
 
 To use, all you need is the model.h5 and model.json files alongside the test.py file.
 If you want to train your own model, run the train.py file.
+Note that the data may not have been fully uploaded, if you want to train on the original dataset, you can get it from [here]([https://link-url-here.org](https://www.kaggle.com/datasets/msambare/fer2013))
+
 
 ## Comments on the FER2013 dataset
 The dataset has some flaws, including the fact that a significant fraction of images in the dataset have large watermarks over the faces, and that some images have ambiguous emotions (i.e face closed and neutral mouth labelled sad, but that would be more similar to neutral). Also, there is a large difference in the amount of data available for some classes (i.e around 7000 images in the train data labelled "Happy", but only around 3000 labelled "Surprise". This problem is also true for the test dataset.
