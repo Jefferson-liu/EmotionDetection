@@ -16,5 +16,7 @@ I fixed these problems on my end by first removing the classes that had ambiguou
 
 ## How to use
 To use, all you need is the model.h5 and model.json files alongside the test.py file.
+
 Run the test.py file, and then it should load the weights from the model.h5 file and load the model from model.json.
+
 Press q to quit the program.
