@@ -1,3 +1,4 @@
+# Emotion Detection Project
 
 A CNN project that can detect if you are happy, angry, surprised. or neutral
 
