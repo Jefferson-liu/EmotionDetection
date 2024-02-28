@@ -6,7 +6,7 @@ The dataset is a modified version of the FER2013 dataset from Kaggle without som
 
 To use, all you need is the model.h5 and model.json files alongside the test.py file.
 If you want to train your own model, run the train.py file.
-Note that the data may not have been fully uploaded, if you want to train on the original dataset, you can get it from [here]([https://link-url-here.org](https://www.kaggle.com/datasets/msambare/fer2013))
+Note that the data may not have been fully uploaded, if you want to train on the original dataset, you can get it from [here](https://www.kaggle.com/datasets/msambare/fer2013)
 
 
 ## Comments on the FER2013 dataset
