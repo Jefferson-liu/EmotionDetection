@@ -1,6 +1,6 @@
 # Emotion Detection Project
 
-A CNN project that can detect if you are happy, angry, surprised. or neutral
+A ML project I made that uses a CNN to detect if you are happy, angry, surprised. or neutral
 
 The dataset is a modified version of the FER2013 dataset from Kaggle without some of the emotions, namely sad, frightened, and disgust.
 
