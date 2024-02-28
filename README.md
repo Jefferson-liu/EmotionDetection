@@ -5,7 +5,7 @@ A ML project I made that uses a CNN to detect if you are happy, angry, surprised
 The dataset is a modified version of the FER2013 dataset from Kaggle without some of the emotions, namely sad, frightened, and disgust.
 
 If you want to train your own model, run the train.py file.
-Note that the data may not have been fully uploaded, if you want to train on the original dataset, you can get it from [here](https://www.kaggle.com/datasets/msambare/fer2013)
+Note that the data I used may not have been fully uploaded, if you want to train on the original dataset, you can get it from [here](https://www.kaggle.com/datasets/msambare/fer2013). Make sure to change the output layers and the emotion_dictionary accordingly.
 
 
 ## Comments on the FER2013 dataset
@@ -20,3 +20,4 @@ To use, all you need is the model.h5 and model.json files alongside the test.py 
 Run the test.py file, and then it should load the weights from the model.h5 file and load the model from model.json.
 
 Press q to quit the program.
+
