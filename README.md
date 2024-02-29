@@ -21,3 +21,5 @@ Run the test.py file, and then it should load the weights from the model.h5 file
 
 Press q to quit the program.
 
+### Notes:
+The model works best without glasses and with hair away from the face
